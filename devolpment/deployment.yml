@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: department-service-app
-          image: naveed0004/department-service:4
+          image: naveed0004/department-service:5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9001
